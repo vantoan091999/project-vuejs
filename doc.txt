@@ -1,0 +1,11 @@
+v-if: 
+v-on: lắng nghe sự kiện 
+@+tên sự kiên : lắng nghe sự kiện tương tự như v-on
+
+ :class="" : thêm class 
+ props: được viết ở thằng con khi thằng cha muốn truyền dữ liệu xuống
+ Ref: 
+ $emit: gửi sự kiện từ thằng con ra thằng cha , ở thằng cha sẽ lắng nghe sự kiện của thằng con
+ Slot: là cách mà bạn có thể sử dụng để tạo ra các component khung với
+  nội dung có thể thay đổi tùy theo vị trí mà bạn sử dụng nó
+<teleport to="dia chi"></teleport>: dịch chuyển 1 đoạn code đến 1 nơi khác 
